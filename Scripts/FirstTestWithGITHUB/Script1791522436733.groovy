@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://sauce-demo.myshopify.com/')
+
+WebUI.click(findTestObject('Object Repository/WITHGITHUB/Page_Sauce Demo/a_Home'))
+
+WebUI.click(findTestObject('Object Repository/WITHGITHUB/Page_Products  Sauce Demo/div_Sold Out'))
+
+WebUI.click(findTestObject('Object Repository/WITHGITHUB/Page_Brown Shades  Sauce Demo/a_Blog'))
+
+WebUI.click(findTestObject('Object Repository/WITHGITHUB/Page_News  Sauce Demo/a_About Us'))
+
+WebUI.click(findTestObject('Object Repository/WITHGITHUB/Page_About Us  Sauce Demo/a_Refer a friend'))
+
+WebUI.click(findTestObject('Object Repository/WITHGITHUB/Page_About Us  Sauce Demo/a_Home'))
+
